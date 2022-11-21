@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+nav{
+    border: 1px solid black;
+    max-width: 600px;
+    margin: 2rem auto 0.5rem;
+    border-radius: 2rem;
+    font-size: 3rem;
+    line-height: 6rem; 
+}
+
+li{
+    list-style-type: none;
+    border-top: 1px solid black;
+}
+
+li a,
+li a:visited{
+    text-decoration: none;
+    color: black;
+    display: block; 
+}
+
+li a:hover,
+li a:focus{
+    background: rgba(95, 26, 5, 0.575);
+    cursor: pointer;
+}
+
+h2{
+    background: gold;
+    border-radius: 2rem 2rem 0 0;
+}
+
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}
